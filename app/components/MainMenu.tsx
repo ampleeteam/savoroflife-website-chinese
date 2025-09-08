@@ -44,10 +44,10 @@ function MainMenu({ allMenu }: { allMenu: Menus }) {
                 {idx === 0 ? m.cluster.toUpperCase() : null}{" "}
               </div>
               <div className="text-GoldenChocolateColour font-serif xl:text-[25px] text-[20px] max-md:text-2xl">
-                {m.name.toUpperCase()}{" "}
+                {m.name_cn}{" "}
               </div>
               <div className="text-GoldenChocolateColour mt-0.5 xl:text-[18px] text-[15px] max-md:text-lg max-md:font-medium italic font-normal line-clamp-4">
-                {m.description.split(/[*.]/, 1)}
+                {m.description_cn}
               </div>
             </div>
           ))}
@@ -64,7 +64,7 @@ function MainMenu({ allMenu }: { allMenu: Menus }) {
                 className="w-full rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour mb-10 rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                BEST SELLERS
+                招牌菜
               </div>
             </div>
           ) : null}
@@ -73,46 +73,46 @@ function MainMenu({ allMenu }: { allMenu: Menus }) {
               <Image
                 width={250}
                 height={50}
-                alt="IRISH SHEPHERD'S PIE"
+                alt="爱尔兰牧羊人派"
                 loading="lazy"
                 src="/landing/Menu_1.webp"
                 className="w-full aspect-[1.96] rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour mb-10 rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                IRISH SHEPHERD&apos;S PIE
+                爱尔兰牧羊人派
               </div>
               <Image
                 width={250}
                 height={50}
-                alt="SWISS SHROOM BURGER"
+                alt="瑞士素菇汉堡"
                 loading="lazy"
                 src="/landing/Menu_2.webp"
                 className="w-full aspect-[1.96] rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour mb-10 rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                SWISS SHROOM BURGER
+                瑞士素菇汉堡{" "}
               </div>
               <Image
                 width={250}
                 height={50}
-                alt="SHROOMY ZOOMY BREAD BOWL"
+                alt="三菇奶香面包盅"
                 loading="lazy"
                 src="/landing/Menu_3.webp"
                 className="w-full aspect-[1.96] rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour mb-10 rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                SHROOMY ZOOMY BREAD BOWL
+                三菇奶香面包盅
               </div>
               <Image
                 width={250}
                 height={50}
-                alt="LASAGNA NEAPOLITANA"
+                alt="那不勒斯千层面"
                 loading="lazy"
                 src="/landing/Menu_4.webp"
                 className="w-full aspect-[1.96] rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                LASAGNA NEAPOLITANA
+                那不勒斯千层面
               </div>
             </div>
           ) : null}
@@ -121,24 +121,24 @@ function MainMenu({ allMenu }: { allMenu: Menus }) {
               <Image
                 width={250}
                 height={50}
-                alt="DESSERTS"
+                alt="甜品"
                 loading="lazy"
                 src="/landing/Desserts.webp"
                 className="w-full rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour mb-10 rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                DESSERTS
+                甜品
               </div>
               <Image
                 width={250}
                 height={50}
-                alt="SAVOR'S SILKY DECADENCE"
+                alt="Savor 招牌巧克力棒"
                 loading="lazy"
                 src="/landing/Menu_5.webp"
                 className="w-full aspect-[1.96] rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                SAVOR&apos;S SILKY DECADENCE
+                Savor 招牌巧克力棒
               </div>
             </div>
           ) : null}
@@ -147,13 +147,13 @@ function MainMenu({ allMenu }: { allMenu: Menus }) {
               <Image
                 width={250}
                 height={50}
-                alt="DRINKS"
+                alt="饮品"
                 loading="lazy"
                 src="/landing/Drinks.webp"
                 className="w-full rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                DRINKS
+                饮品
               </div>
             </div>
           ) : null}
@@ -162,57 +162,57 @@ function MainMenu({ allMenu }: { allMenu: Menus }) {
               <Image
                 width={250}
                 height={50}
-                alt="ASIAN"
+                alt="亚洲风味"
                 loading="lazy"
                 src="/landing/Asian_1.webp"
                 className="w-full rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour mb-10 rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                ASIAN
+                亚洲风味
               </div>
               <Image
                 width={250}
                 height={50}
-                alt="NASI LEMAK"
+                alt="招牌菜"
                 loading="lazy"
                 src="/landing/Asian_2.webp"
                 className="w-full rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour mb-10 rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                BEST SELLERS
+                招牌菜
               </div>
               <Image
                 width={250}
                 height={50}
-                alt="NASI KERABU AYAM PERCIK"
+                alt="蓝花饭配Percik酱素“鸡”"
                 loading="lazy"
                 src="/landing/Nasi Kerabu.webp"
                 className="w-full rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour mb-10 rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                NASI KERABU AYAM PERCIK
+                蓝花饭配Percik酱素“鸡”
               </div>
               <Image
                 width={250}
                 height={50}
-                alt="BAKSO"
+                alt="肉丸"
                 loading="lazy"
                 src="/landing/Bakso.webp"
                 className="w-full rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour mb-10 rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                BAKSO
+                肉丸
               </div>
               <Image
                 width={250}
                 height={50}
-                alt="SARAWAK LAKSA"
+                alt="Savor 招牌砂拉越叻沙米粉"
                 loading="lazy"
                 src="/landing/Sarawak Laksa.webp"
                 className="w-full rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                SARAWAK LAKSA
+                Savor 招牌砂拉越叻沙米粉
               </div>
             </div>
           ) : null}
@@ -221,24 +221,24 @@ function MainMenu({ allMenu }: { allMenu: Menus }) {
               <Image
                 width={250}
                 height={50}
-                alt="THE BIG VEGAN BREAKFAST"
+                alt="纯素英式早餐"
                 loading="lazy"
                 src="/landing/Big Breakfast.webp"
                 className="w-full rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour mb-10 rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                THE BIG VEGAN BREAKFAST
+                纯素英式早餐
               </div>
               <Image
                 width={250}
                 height={50}
-                alt="DRY WANTAN MEE"
+                alt="干捞云吞面"
                 loading="lazy"
                 src="/landing/Wantan.webp"
                 className="w-full rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                DRY WANTAN MEE
+                干捞云吞面
               </div>
             </div>
           ) : null}
@@ -247,35 +247,35 @@ function MainMenu({ allMenu }: { allMenu: Menus }) {
               <Image
                 width={250}
                 height={50}
-                alt="GOLDEN SEA BUDDIES WITH MASH POTATOES"
+                alt="黄金酥脆素鱼配土豆泥"
                 loading="lazy"
                 src="/landing/Golden Potato.webp"
                 className="w-full rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour mb-10 rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                GOLDEN SEA BUDDIES WITH MASH POTATOES
+                黄金酥脆素鱼配土豆泥
               </div>
               <Image
                 width={250}
                 height={50}
-                alt="KIDS MENU"
+                alt="迷你 Savor 汉堡配薯条"
                 loading="lazy"
                 src="/landing/Slider Fries.webp"
                 className="w-full rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour mb-10 rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                LIL&apos; SAVOR SLIDER WITH FRIES
+                迷你 Savor 汉堡配薯条
               </div>
               <Image
                 width={250}
                 height={50}
-                alt="GOLDEN SEA BUDDIES WITH FRIES"
+                alt="黄金酥脆素鱼配薯条"
                 loading="lazy"
                 src="/landing/Golden Fries.webp"
                 className="w-full rounded-t-lg"
               />
               <div className="justify-center font-serif text-GoldenChocolateColour rounded-b-lg xl:text-[21px] text-[13px] p-[10px]  border border-solid border-stone-400 max-md:pr-7 max-md:pl-7">
-                GOLDEN SEA BUDDIES WITH FRIES
+                黄金酥脆素鱼配薯条
               </div>
             </div>
           ) : null}

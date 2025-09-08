@@ -119,7 +119,7 @@ export const getMenuByCluster = async (
   try {
     let { data, error } = await supabase
       .from("menu")
-      .select("id,name,description,cluster,categoryId,showHome")
+      .select("id,name_cn,description_cn,cluster,categoryId,showHome")
       .eq("cluster", items)
       .eq("showHome", ItemStatus.AVAILABLE);
 

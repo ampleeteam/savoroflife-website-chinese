@@ -4,10 +4,9 @@ import Gallery from "./components/Gallery";
 import { Metadata } from "next";
 import Reviews from "@/components/reviews/Reviews";
 
-const title =
-  "Vegan Catering KL: Plant-Based Catering Services for Weddings & Corporate Events | Savor of Life";
+const title = "吉隆坡纯素餐饮：婚礼与公司活动的植物性餐饮服务 | Savor of Life";
 const description =
-  "Delight your guests with exceptional vegan catering in Kuala Lumpur! Savor of Life offers bespoke plant-based menus for weddings, corporate events, and private parties. Choose our catering to enjoy diverse vegetarian and vegan food options crafted to please all palates. Book now to make your event a culinary success!";
+  "用卓越的纯素餐饮款待您的宾客！Savor of Life 在吉隆坡为婚礼、公司活动及私人派对提供量身定制的植物性菜单。选择我们的餐饮服务，享受多样的素食与纯素料理，满足所有人的味蕾。立即预订，让您的活动成为美食盛宴！";
 
 export const metadata: Metadata = {
   metadataBase: new URL(`${process.env.NEXT_PUBLIC_SITE_URL}/catering`),
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "en_MY",
+    locale: "cn_MY",
     url: `${process.env.NEXT_PUBLIC_SITE_URL}/catering`,
     title: title,
     description: description,

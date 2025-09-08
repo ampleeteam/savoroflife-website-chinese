@@ -88,9 +88,8 @@ const Slider = () => {
                       {elem.title}
                     </h2>
                     <p className="mb-4 font-semibold text-shadow text-lg shadow-black">
-                      Elevate your events with Savor&apos;s versatile and
-                      stylish space. Our prime location in the heart of Kuala
-                      Lumpur sets the stage for a memorable experience.
+                      用 Savor
+                      多功能且时尚的场地，为您的活动增添格调。我们位于吉隆坡市中心的黄金地段，为您打造难忘的体验。
                     </p>
                   </div>
                 </motion.div>

@@ -30,7 +30,7 @@ function MenuSelection({
         href={process.env.NEXT_PUBLIC_SAVOR_MENU_DOWNLOAD_URL || "/"}
         target="_blank"
       >
-        <div>Download Menu</div>
+        <div>下载菜单</div>
       </Link>
     </div>
   );

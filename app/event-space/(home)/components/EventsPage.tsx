@@ -74,31 +74,31 @@ const EventsPage = () => {
                   onClick={handleClick}
                   className={`my-1 mx-5 rounded-full w-[215px] py-1.5 font-bold text-sm text-[#7F7F7F] ring-1 ring-[#7F7F7F] hover:bg-gray-800 ${activeEvent === 0 ? "bg-gray-800" : "bg-white"} md:mx-10 md:my-3`}
                 >
-                  Corporate Events
+                  企业活动
                 </button>
                 <button
                   onClick={handleClick2}
                   className={`my-1 mx-5 rounded-full w-[215px] py-1.5 font-bold text-sm text-[#7F7F7F] ring-1 ring-[#7F7F7F] hover:bg-gray-800 ${activeEvent === 1 ? "bg-gray-800" : "bg-white"} md:mx-10 md:my-3`}
                 >
-                  Weddings
+                  婚礼
                 </button>
                 <button
                   onClick={handleClick3}
                   className={`my-1 mx-5 rounded-full w-[215px] py-1.5 font-bold text-sm text-[#7F7F7F] ring-1 ring-[#7F7F7F] hover:bg-gray-800 ${activeEvent === 2 ? "bg-gray-800" : "bg-white"} md:mx-10 md:my-3`}
                 >
-                  Birthday Parties
+                  生日派对
                 </button>
                 <button
                   onClick={handleClick4}
                   className={`my-1 rounded-full w-[215px] py-1.5 font-bold text-sm text-[#7F7F7F] ring-1 ring-[#7F7F7F] hover:bg-gray-800 ${activeEvent === 3 ? "bg-gray-800" : "bg-white"} md:mx-10 md:my-0`}
                 >
-                  Seminars and Workshops
+                  研讨会与工作坊
                 </button>
                 <button
                   onClick={handleClick5}
                   className={`my-1 rounded-full w-[215px] py-1.5 font-bold text-sm text-[#7F7F7F] ring-1 ring-[#7F7F7F] hover:bg-gray-800 ${activeEvent === 4 ? "bg-gray-800" : "bg-white"} md:mx-10 md:mt-3`}
                 >
-                  Special Occassions
+                  特别场合
                 </button>
               </motion.div>
             </div>

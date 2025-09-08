@@ -31,8 +31,8 @@ export const menuNameVariants = [
 
 export interface ItemCluster {
   id: number;
-  name: string;
-  description: string;
+  name_cn: string;
+  description_cn: string;
   cluster: string;
   categoryId: number;
   imgHomeUrl: string;

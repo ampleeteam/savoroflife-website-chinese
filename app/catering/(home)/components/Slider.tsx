@@ -85,9 +85,7 @@ const Slider = () => {
                       {elem.title}
                     </h2>
                     <p className="mb-4 font-semibold text-shadow text-lg shadow-black">
-                      Savor Catering is your ideal partner for creating
-                      unforgettable culinary experiences tailored to any
-                      occasion.
+                      {elem.desc}
                     </p>
                   </div>
                 </motion.div>

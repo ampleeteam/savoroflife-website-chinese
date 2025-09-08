@@ -15,44 +15,40 @@ const About = () => {
       <div className="py-10 max-lg:px-10">
         <div className="lg:w-[75%]">
           <h2 className="text-4xl mb-8 font-semibold md:text-5xl lg:text-4xl">
-            Savor Event Space
+            Savor 活动空间
           </h2>
           <div className="flex flex-col gap-5 md:gap-10 lg:gap-5">
             <p>
-              Elevate your events with Savor&apos;s versatile and stylish space.
-              Our prime location in the heart of Kuala Lumpur sets the stage for
-              a memorable experience. Designed to accommodate over 100 guests,
-              our venue offers the perfect setting for various occasions,
-              providing flexibility to fit your needs.
+              用 Savor
+              多功能且时尚的场地，为您的活动增添格调。我们位于吉隆坡市中心的黄金地段，为您打造难忘的体验。
+              场地可容纳超过 100 位宾客，灵活空间满足各种场合的需求。
             </p>
             <p>
-              We can host up to 120 guests without tables and chairs, 70 guests
-              with tables and chairs, and 100 guests with chairs only.
+              我们可承办： 无桌椅：最多 120 位宾客 带桌椅：最多 70 位宾客
+              仅椅子：最多 100 位宾客
             </p>
             <p>
-              Whether you&apos;re planning a corporate function, private party,
-              wedding, or any other special event, Savor offers tailored food
-              menus and budget-friendly options to suit your needs.
+              无论您筹划的是企业活动、私人派对、婚礼，还是其他特别庆典，Savor
+              都能为您提供量身定制的菜单与实惠的方案，满足您的需求。
             </p>
             <p>
-              With ample parking nearby, your guests will enjoy convenient
-              access to our exceptional venue. Unlock the perfect setting for
-              your gatherings at Savor.
+              场地周边设有充足停车位，宾客可轻松抵达，尽享我们优质的活动空间。
+              在 Savor，开启您完美聚会的理想场所。
             </p>
           </div>
 
           <div className="flex flex-row max-md:grid gap-2 mt-[50px]">
             <Link
-              href="/event-space/book"
+              href="https://www.savoroflife.com/event-space/book"
               className="bg-[#223733] font-bold text-center text-[#F5C4B0] w-[50%] max-md:w-full py-1.5 rounded-full text-sm hover:bg-[#F5C4B0] hover:text-[#223733] hover:shadow-md hover:shadow-[#F5C4B0] hover:font-bold"
             >
-              Reserve Now
+              立即预订
             </Link>
             <button
               onClick={handleClickCatalog}
               className="bg-[#223733] font-bold text-[#F5C4B0] w-[50%] max-md:w-full py-1.5 rounded-full text-sm hover:bg-[#F5C4B0] hover:text-[#223733] hover:shadow-md hover:shadow-[#F5C4B0] hover:font-bold"
             >
-              Download Catalog
+              下载菜单
             </button>
           </div>
         </div>

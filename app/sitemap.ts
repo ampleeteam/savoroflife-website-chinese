@@ -17,23 +17,11 @@ export default async function sitemap() {
       lastMofidied: new Date(),
     },
     {
-      url: `${baseUrl}/about`,
-      lastMofidied: new Date(),
-    },
-    {
-      url: `${baseUrl}/meals`,
-      lastMofidied: new Date(),
-    },
-    {
       url: `${baseUrl}/event-space`,
       lastMofidied: new Date(),
     },
     {
       url: `${baseUrl}/catering`,
-      lastMofidied: new Date(),
-    },
-    {
-      url: `${baseUrl}/contact`,
       lastMofidied: new Date(),
     },
     ...menuUrls,

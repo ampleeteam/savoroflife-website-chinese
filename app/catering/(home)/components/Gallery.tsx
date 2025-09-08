@@ -19,7 +19,7 @@ const fadeInAnimationVariants = {
 const Gallery = () => {
   return (
     <div className="flex flex-col md:gap-5 justify-center items-center text-center min-h-[100vh] py-[60px]">
-      <h2 className="font-bold text-4xl">Gallery</h2>
+      <h2 className="font-bold text-4xl">相册</h2>
       <div className="mt-5 grid justify-center">
         <motion.div
           variants={fadeInAnimationVariants}

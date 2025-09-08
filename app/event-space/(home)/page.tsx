@@ -4,10 +4,9 @@ import Slider from "./components/Slider";
 import { Metadata } from "next";
 import Reviews from "@/components/reviews/Reviews";
 
-const title =
-  "Event Space KL: Restaurant Venue for Weddings, Corporate & Birthday Parties | Savor of Life";
+const title = "吉隆坡活动场地：婚礼、公司与生日派对的餐厅场所 | Savor of Life";
 const description =
-  "Explore Savor’s premier event space in KL, perfect for weddings, corporate gatherings, and birthday parties. Situated in the heart of Kuala Lumpur, our restaurant venue offers stunning, versatile settings with exceptional plant-based cuisine. Secure your date now and make your next event unforgettable!";
+  "探索 Savor 在吉隆坡的高级活动空间，完美适用于婚礼、公司聚会和生日派对。坐落于吉隆坡市中心，我们的餐厅场地提供优雅多变的环境与卓越的植物性料理。立即预订，让您的下一场活动难以忘怀！";
 
 export const metadata: Metadata = {
   metadataBase: new URL(`${process.env.NEXT_PUBLIC_SITE_URL}/event-space`),
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "en_MY",
+    locale: "cn_MY",
     url: `${process.env.NEXT_PUBLIC_SITE_URL}/event-space`,
     title: title,
     description: description,
