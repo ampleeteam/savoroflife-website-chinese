@@ -3,6 +3,7 @@ import EventsPage from "./components/EventsPage";
 import Slider from "./components/Slider";
 import { Metadata } from "next";
 import Reviews from "@/components/reviews/Reviews";
+import SubscribeNewsletter from "@/components/SubscribeNewsletter";
 
 const title = "吉隆坡活动场地：婚礼、公司与生日派对的餐厅场所 | Savor of Life";
 const description =
@@ -41,6 +42,7 @@ export default async function EventSpace() {
       <EventsPage />
       {/* <Dates /> */}
       <Reviews />
+      <SubscribeNewsletter />
     </div>
   );
 }

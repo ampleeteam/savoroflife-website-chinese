@@ -3,6 +3,7 @@ import About from "./components/About";
 import Gallery from "./components/Gallery";
 import { Metadata } from "next";
 import Reviews from "@/components/reviews/Reviews";
+import SubscribeNewsletter from "@/components/SubscribeNewsletter";
 
 const title = "吉隆坡纯素餐饮：婚礼与公司活动的植物性餐饮服务 | Savor of Life";
 const description =
@@ -40,6 +41,7 @@ export default async function Catering() {
       <About />
       <Gallery />
       <Reviews />
+      <SubscribeNewsletter />
     </div>
   );
 }
