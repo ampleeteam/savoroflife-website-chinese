@@ -8,6 +8,7 @@ import SocialMedia from "./components/SocialMedia";
 import WhatPeopleSaid from "./components/WhatPeopleSaid";
 import { getMenuByCluster } from "@/services/menu";
 import SubscribeNewsletter from "@/components/SubscribeNewsletter";
+import Reviews from "@/components/reviews/Reviews";
 
 const title = "探索吉隆坡的植物性、纯素与素食美食 | Savor of Life";
 const description =
@@ -66,6 +67,7 @@ export default async function Home() {
         />
         <SocialMedia />
         <WhatPeopleSaid />
+        <Reviews />
         <SubscribeNewsletter />
       </main>
       <Footer />
