@@ -54,12 +54,10 @@ const SubscribeNewsletter = () => {
     <div className="lg:px-[200px] bg-[#D9D9D9]">
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="flex flex-col justify-center gap-y-3 px-10 py-[100px]">
-          <h2 className="font-semibold text-2xl">
-            Subscribe to Our Newsletter
-          </h2>
+          <h2 className="font-semibold text-2xl">订阅我们的电子报</h2>
           <p>
-            Subscribe to our newsletter to get the latest promo, release
-            updates, and missions project!
+            订阅我们的电子报，
+            让您第一时间获取最新优惠、产品更新，以及我们的使命项目资讯！
           </p>
           <form onSubmit={handleSubmit(onSubmit)}>
             <Input
@@ -78,9 +76,7 @@ const SubscribeNewsletter = () => {
               <p className="text-xs mt-1">{errors.root.message}</p>
             )}
             {isSubmitSuccessful && isDirty && (
-              <p className="text-xs mt-1">
-                Successfully subscribed to the newsletter!
-              </p>
+              <p className="text-xs mt-1">订阅成功!</p>
             )}
             <Button
               className="bg-[#99A799] rounded-full w-[150px] text-[#223733] font-bold mt-3"
